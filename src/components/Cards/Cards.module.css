@@ -1,0 +1,29 @@
+.container {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deaths, .infected, .active {
+    margin: 0% 3% !important;
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0, 100, 200, 0.5);
+}
+
+.active {
+    border-bottom: 10px solid rgba(100, 200, 0, 0.5);
+}
+
+.deaths {
+    border-bottom: 10px solid rgba(200, 100, 0, 0.5);
+}
+
+@media (max-width: 770px) {
+    .deaths, .infected, .active {
+        margin: 1% 0% !important;
+    }
+}

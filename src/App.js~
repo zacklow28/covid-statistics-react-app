@@ -37,7 +37,7 @@ function App() {
         <div>Some countries may not have data for all the dates in this period.</div>
         <Cards data={covidData}/>
         <CountryPicker handleCountryChange={handleCountry} handleDateChange={handleDate}/>
-        <Chart data={covidData} country={country}/>
+        <Chart data={covidData}/>
         <API date={date} countryCode={country} onFetchData={handleFetchData}/>
     </div>
   );
